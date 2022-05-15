@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        #Big-box {
+            display: block;
+            margin: auto;
+            height: 600px;
+            width: 560px;
+            border: 1px solid rgb(0, 0, 0);
+            align-items: center;
+            border-radius: 12px;
+        }
+
+        .form-box {
+            display: block;
+            margin: auto;
+            width: 80%;
+        }
+
+        .first {
+            width: 34.8%;
+        }
+
+        .second {
+            width: 75%;
+        }
+
+        input {
+            font: 2px;
+            padding: 10px 10px;
+            background: rgba(247, 248, 250, 1);
+        }
+
+        .password {
+            display: flex;
+        }
+
+        .password img {
+            position: relative;
+            top: 9px;
+            left: -38px;
+        }
+        .btna{
+            margin: 14px 4px;
+            font-size: 20px;
+            padding: 4px 0px;
+            display: block;
+            width: 75%;
+            border-radius: 20px ;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        #btna-one{
+         background: rgba(47, 108, 229, 1);
+         color: wheat;
+         font-weight: 600px;
+         font-family: 'IBM Plex Sans';
+        }
+        .btna2{
+            margin: 10px 4px;
+            font-size: 20px;
+            padding: 4px 0px;
+            display: block;
+            width: 75%;
+            border-radius: 20px ;
+            align-items: center;
+        }
+        input[type='name2']{
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div id="Big-box">
+        <h5 style="background-color:rgb(127, 214, 127); box-shadow: 2px 2px rgb(127, 214, 127);" >Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</h5>
+        <h1 style="padding-left: 57px ;">Create Account</h1>
+        <div class="form-box">
+            <form action="#">
+                <input type="text" name="Name" class="first" placeholder="First Name">
+                <input type="text" name="Name2" class="first" placeholder="Last Name">
+
+                <input type="email" name="Email" class="second" placeholder="Email" style="display: block;">
+
+                <div class="password">
+                    <input type="password" name="password" class="second" placeholder="password"
+                        style="display: block;">
+                    <img src="/images/eye.webp" alt="" height="30px">
+                </div>
+                <input type="password" name="password" class="second" placeholder="Confirm Password"
+                style="display: block;">
+
+                <button id="btna-one"  class="btna">Create Account</button>
+                <button id="btna-fb" class="btna2"><img src="/images/facebook.png" alt="" height="30px" style="margin: 2px 8px;">Sign up with Facebook</button>
+                <button id="btna-mail" class="btna2"><img src="/images/gmail.png" alt=""  height="30px" style="margin: 2px 8px;"> Sign up with G-mail</button>
+        </div>
+    </div>
+    </form>
+</body>
+
+</html>

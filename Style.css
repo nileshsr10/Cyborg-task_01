@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    /* border: 2px solid red; */
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.box2 {
+    position: relative;
+}
+
+.box2 img {
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 310px;
+}
+#navbar a:current{
+    opacity: 1;
+}
+
+#navbar input {
+    padding: 6px;
+    width: 20rem;
+    text-align: center;
+    border-radius: 12rem;
+    font-size: 0.8rem;
+}
+
+
+#box::before {
+    content: "Computer Engineering";
+    position: absolute;
+    top: 250px;
+    left: 15vw;
+    color: white;
+    font-size: 40px
+}
+
+#box {
+    height: 300px;
+    width: 100%;
+    background: url(images/laptop.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    /* border: 2px solid blue; */
+}
+
+#header3 {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    font-size: 20px;
+    align-items: center;
+    height: 70px;
+
+
+    /* border: 2px solid red; */
+}
+
+#left ul {
+    display: flex;
+    list-style: none;
+}
+
+#left ul li {
+    margin: 0px 6px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#left ul li:hover {
+    opacity: 1;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#left ul li:nth-child(1) {
+    opacity: 1;
+}
+
+#btn-grp {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#btn-grp button {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 4px;
+    padding: 5.5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#btn-grp div {
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+}
+
+#btn button {
+    border: none;
+    background-color: rgba(47, 108, 229, 1);
+    color: white;
+    font-size: 13px;
+}
+
+#btn {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2px 8px;
+    background-color: rgba(47, 108, 229, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+#btn img {
+    height: 20px;
+    filter: invert(100%);
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+
+/*Sections*/
+#prim-container {
+    display: flex;
+    height: 600px;
+    padding: 0px 100px;
+    justify-content: center;
+
+
+    /* border: 2px solid rgb(3, 154, 119); */
+}
+
+.cont {
+    /* border: 2px solid purple; */
+    width: 600px;
+    margin: 20px 30px;
+}
+
+#cont-1 {
+    width: 80%;
+}
+#cont-2 {
+    width: 35%;
+}
+
+.container {
+    height: 449px;
+    border: 1px solid rgb(7, 0, 0);
+    margin: 20px 0px;
+    border-radius: 8px;
+   
+}
+
+#container-1 .img-1{
+ height: 300px;  
+  size: cover;
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+#container-2 .img-1{
+ height: 300px;  
+  size: cover;
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+#container-3 .img-1{
+ height: 300px;  
+  size: cover;
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+#container-4{
+    height: 180px;
+}
+/* #container-4 .img-2{
+ height: 200px;  
+  size: cover;
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+} */
+#prof-1{
+    display: flex;
+    align-items: center;
+}
+.prof img{
+    height: 30px;
+    width: 30px;
+    margin: 0px 8px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.content{
+    padding: 6px;
+}
+.content p{
+    padding: 4px 0px;
+}
+.content span{
+    font-weight: bold;
+    font-size: larger;
+    bottom: -12px;
+}
+
+#btn2{
+   display: block;
+    width: 80%;
+    margin: auto;
+    background-color: whitesmoke;
+    color: red;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+#corner{
+    display: flex;
+    align-items: center;
+}
+#corner img{
+    height: 20px;
+    padding: 2px 2px;
+}
+
+.right-1{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.right-2{
+    margin: 14px 0px;
+}
